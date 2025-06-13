@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(44, 36, 93);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+p,a,button,div {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.Hello-statement {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  color: black;
+  background-color: rgb(207, 125, 255);
+  border-color: rgb(132, 111, 252);
+  border-width: 15px;
+  width: 200;
+  height: 80;
+  border-radius: 30px;
+}
+
+.Welcomestatement-paragraph{
+  font-weight: bolder;
+  text-align: center;
+  color: rgba(247, 241, 249, 0.564);
+  font-size: 27px;
+  font-style: oblique;
+  margin-top: 1.25cm;
+  margin-bottom: 1.25cm;
+}
+
+
+.Misson-paragraph,.Host-intro {
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  color: black;
+  background-color:  rgb(207, 125, 255);
+  border-color: rgb(0, 0, 0);
+  border-radius: 18px;
+  border-width: 5px;
+  border-style: dashed;
+  font-weight: 500;
+  transition: opacity 0.5s;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  width: 345px;
+}
+
+.Host-intro{
+  background-color: rgb(132, 111, 252);
+  width: 370px;
+}
+.Misson-paragraph:hover,
+.Host-intro:hover{
+  opacity: 0.8;
+
+
+}
+
+.Misson-paragraph:active, .Host-intro:active {
+  opacity: 0.5;
+  
+ 
+}
+
+img {
+	display: block;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+  border-style: ridge;
+  border-color: black;
+  border-width: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border-block-end-color: rgb(132, 111, 252);
+  border-block-start-color: rgb(207, 125, 255);
+  
+
+}
+ 
+
+ 
+ 
+
+ 

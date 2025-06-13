@@ -1,0 +1,39 @@
+.Prisha-bio {
+  font-size: 30px;
+  color: black;
+  background-color:  rgb(104, 72, 77);
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  border-style: dashed;
+  font-weight: 500;
+  transition: opacity 0.5s;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  width: 100%;
+  min-height: 400px;
+
+}
+
+.Emily-bio{
+  font-size: 30px;
+  color: black;
+  background-color:  rgb(104, 72, 77);
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  border-style: dashed;
+  font-weight: 500;
+  transition: opacity 0.5s;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  width: 100%;
+  min-height: 400px;
+
+}

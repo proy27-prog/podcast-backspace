@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(65, 34, 39);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+a,button,div, h1 {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p{
+  margin-top: 30px;
+  margin-bottom: 60px; 
+  font-family: Roboto, Arial;
+}
+
+.Podcast-link{
+  font-size: 18px;
+  color: black;
+  background-color: rgb(104, 72, 77);
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  border-style: dashed;
+  font-weight: 500;
+  transition: opacity 0.5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  width: 345px;
+}
+
+.Podcast-link:hover{
+  opacity: 0.8;
+}
+
+.Podcast-link:active {
+  opacity: 0.5;
+}
+
+.Prisha-bio, .Emily-bio {
+  flex: 1; /* Allows both elements to take equal space */
+  font-size: 20px;
+  color: black;
+  background-color: rgb(104, 72, 77);
+  border: 5px dashed black;
+  font-weight: 500;
+  transition: opacity 0.5s;
+  padding: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  min-height: 300px; /* Ensures they remain a minimum height */
+  display: flex;
+  align-items: center; /* Centers text vertically */
+  justify-content: center; /* Centers text horizontally */
+  max-width: 90%;
+}
+
+
+h1{
+  font-size: 50px;
+  color:rgb(187, 184, 180);
+}
+
+img{
+  max-width: 50%; /* Adjust image size as needed */
+  height: auto;
+  border-style: ridge;
+  border-color: black;
+  border-width: 10px;
+  border-radius: 20px;
+  border-block-end-color: rgb(132, 111, 252);
+  border-block-start-color: rgb(207, 125, 255);
+}
+
+  .bio{
+  display: flex;
+  align-items: center; /* Aligns the text box and image */
+  gap: 20px; 
+  } 
+
+
+.container{
+  display: flex;
+  gap: 20px; /* Adds spacing between elements */
+  justify-content: center;
+  align-items: stretch; /* Ensures equal height */
+  flex-wrap: wrap;
+
+}
+
+
+
+
